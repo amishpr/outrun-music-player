@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "build-git": "ng build --prod=true --outputPath=docs --baseHref=https://amishpr.github.io/outrun-music-player/",
+    "build": "ng build --prod=true --outputPath=docs",
+    "build-git": "ng build --prod=true --outputPath=docs --baseHref=./",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
