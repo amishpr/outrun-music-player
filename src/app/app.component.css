@@ -1,0 +1,28 @@
+#main-app {
+  background-image: url("https://i.imgur.com/hfQiPVs.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  width: 100%
+}
+
+#nav {
+
+}
+
+.btn-outline-light {
+  color: white !important;
+  border-color: deeppink !important;
+  background-color: hotpink;
+}
+
+.btn-outline-light:hover, .btn-outline-light:active, .btn-outline-light:visited {
+  color: white !important;
+  background-color: deeppink;
+}

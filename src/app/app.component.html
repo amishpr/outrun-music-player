@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="main-app">
+<div style="text-align:center">
+  <img id="logo" alt="Angular Logo" src="../assets/logo.png">
+</div>
+
+<div class="row text-center" id="nav">
+  <div class="col-6">
+    <a [routerLink]="['/']"><button id="home" class="btn-outline-light btn-lg btn-block">Home</button></a>
+  </div>
+    <div class="col-6">
+      <a [routerLink]="['/library']"><button class="btn-outline-light btn-lg btn-block">Library</button></a>
+  </div>
+</div>
+<div class="text-center text-white">
+  <h1>Welcome to Outrun Music Player!</h1>
+  <h1>Your source for the best Outrun music!</h1>
+
+</div>
+
+<router-outlet></router-outlet>
+
+<app-player></app-player>
+
+</div>

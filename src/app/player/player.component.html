@@ -1,0 +1,15 @@
+<div class="p-1 text-center" id="player">
+  <div class="row p-1 ">
+    <div class="col-4">
+      <button class="btn-outline-primary btn-lg" (click)="backwardsMusic()"><span class="glyphicon glyphicon-fast-backward"></span></button>
+    </div>
+    <div class="col-4">
+      <button class="btn-outline-primary btn-lg" (click)="playMusic()" *ngIf="show"><span class="glyphicon glyphicon-play"></span> Play</button>
+      <button class="btn-outline-primary btn-lg" (click)="pauseMusic()" *ngIf="show === false"><span class="glyphicon glyphicon-pause"></span> Pause</button>
+    </div>
+    <div class="col-4">
+      <button class="btn-outline-primary btn-lg" (click)="forwardMusic()"><span class="glyphicon glyphicon-fast-forward"></span></button>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,15 @@
+.btn-outline-primary {
+  color: deeppink !important;
+  border-color: deeppink !important;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+  color: white !important;
+  background-color: deeppink;
+}
+
+#player {
+  background-color: black;
+  opacity: 0.75;
+}
