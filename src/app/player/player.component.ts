@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Howl } from 'howler';
 
+// import {muisc} from '../../assets'
+
 @Component({
   selector: 'app-player',
   templateUrl: './player.component.html',
@@ -19,7 +21,7 @@ export class PlayerComponent implements OnInit {
   ngOnInit() {
     if (this.sound === null) {
       this.sound = new Howl({
-        src: ['/music/' + this.songs[7]],
+        src: ['../../assets/music/' + this.songs[7]],
         html5: true
       });
     }
@@ -28,7 +30,7 @@ export class PlayerComponent implements OnInit {
   playMusic() {
     if (this.sound === null) {
        this.sound = new Howl({
-        src: ['/music/' + this.songs[7]],
+        src: ['../../assets/music/' + this.songs[7]],
         html5: true
       });
     }
@@ -47,7 +49,7 @@ export class PlayerComponent implements OnInit {
     this.pauseMusic();
     this.show = false;
     this.sound = new Howl({
-      src: ['/music/' + this.songs[this.index]],
+      src: ['../../assets/music/' + this.songs[this.index]],
       html5: true
     });
 
@@ -66,7 +68,7 @@ export class PlayerComponent implements OnInit {
     this.pauseMusic();
     this.show = false;
     this.sound = new Howl({
-      src: ['/music/' + this.songs[this.index]],
+      src: ['../../assets/music/' + this.songs[this.index]],
       html5: true
     });
 
